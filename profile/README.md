@@ -33,9 +33,7 @@ We are shifting the paradigm from **Software Engineering** to **Software Orchest
 
 ## 🌐 Connect & Collaborate
 
-- **LinkedIn:** [Follow our Journey](https://www.linkedin.com/in/YOUR_PROFILE_LINK)
-- **Methodology:** See our [Vibe-Coding SDLC](./vibe-sdlc) repository.
-- **Mission:** Read our [Equity Framework](./equity-labs) repository.
+- **LinkedIn:** [Follow my Journey](https://www.linkedin.com/in/tsaimax)
 
 ---
 
