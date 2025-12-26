@@ -31,15 +31,13 @@ We are shifting the paradigm from **Software Engineering** to **Software Orchest
 
 ---
 
-## 🌐 Connect & Collaborate
-
-- **LinkedIn:** [Follow my Journey](https://www.linkedin.com/in/tsaimax)
-
----
-
-### 💡 願景與使命 (Vision & Mission)
-> 以意圖為核心，以平權為目標，驅動企業級 AI 轉型。
-> 我們致力於透過 AI 技術轉型來縮減數位落差，確保技術進步能惠及所有人。透過人才再培訓與架構創新，確保團隊在 AI 時代保持競爭力。
+## Table of Content
+- [Design Documents](https://github.com/Enterprise-AI-Vibe/.github/tree/23ed98ec13dcb7b8d91f2567716ca9ac10631870/design)
 
 ---
+
 © 2025 Max J. Tsai. All intents reserved.
+🌐 Connect & Collaborate: **LinkedIn:** [Follow my Journey](https://www.linkedin.com/in/tsaimax) \
+💡 願景與使命 (Vision & Mission) \
+以意圖為核心，以平權為目標，驅動企業級 AI 轉型。\
+我們致力於透過 AI 技術轉型來縮減數位落差，確保技術進步能惠及所有人。透過人才再培訓與架構創新，確保團隊在 AI 時代保持競爭力。
