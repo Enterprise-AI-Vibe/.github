@@ -1,4 +1,4 @@
-# Enterprise AI Vibe 🚀
+# Enterprise AI Vibe 
 
 ### "Centering on Intent, Committed to Equity: Driving Enterprise AI Transformation."
 
