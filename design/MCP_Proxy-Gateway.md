@@ -1,4 +1,16 @@
-Here is a structured architectural overview of an **MCP Proxy & Gateway** system, formatted in Markdown for your documentation or technical design records.
+##Here is a structured architectural overview of an **MCP Proxy & Gateway** system, formatted in Markdown for your documentation or technical design records.
+
+
+Proposed Architecture: MCP Gateway & Proxy Relay
+Objective: To evaluate the feasibility and strategic value of implementing a centralized MCP Proxy Server. This middleware will function as a relay between internal MCP clients (AI agents/IDEs) and a diverse backend ecosystem comprising external MCP servers and legacy REST APIs.
+
+Key Technical Drivers:
+
+Credential Encapsulation: Centralizing sensitive API keys, OAuth tokens, and authentication headers within the proxy layer. This ensures that internal clients never handle raw credentials, significantly reducing the attack surface and simplifying secret management.
+
+Abstraction of Non-Native Servers: Acting as a translation layer to "MCP-ify" standard REST/JSON-RPC services. This allows the internal AI ecosystem to interact with legacy systems using native MCP tools and resources without modifying the underlying legacy codebases.
+
+Payload Packaging (Payroll/Sensitive Data): Orchestrating and sanitizing data from internal payroll systems. The proxy will aggregate disparate data points into structured, LLM-optimized payloads while ensuring strict data governance and filtering before the information reaches the client.
 
 ---
 
@@ -25,7 +37,7 @@ graph LR
         Client[Internal MCP Client<br/>Claude Desktop/Cursor]
     end
 
-    subgraph Security Boundary (Proxy Server)
+    subgraph Security Boundary - Proxy Server
         Proxy[MCP Proxy Server]
         Vault[(Secret Manager)]
     end
